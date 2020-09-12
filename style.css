@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -5,12 +9,16 @@ header{
     padding-left: 50px;
     
 }
+.headright{
+    width: 50%;
+}
 
 .container{
+    box-sizing: border-box;
     padding-top: 100px; 
     padding-left: 50px;
     margin:40px;
-    width:100%;
+    width:95%;
     /* height: fit-content; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
@@ -22,6 +30,19 @@ header{
  
 
 }
+header h1{
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif; 
+}
+header h3{ 
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+header p{ 
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
 
 
 
@@ -61,6 +82,12 @@ img{
     writing-mode: vertical-lr;
     position: absolute;
     display: inline;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+.picture h3{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
 }
 
 @media all and (min-width: 768px){
